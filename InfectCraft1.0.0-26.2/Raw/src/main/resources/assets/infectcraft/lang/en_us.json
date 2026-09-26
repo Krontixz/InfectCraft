@@ -1,0 +1,11 @@
+{
+  "effect.infectcraft.covid_19": "Covid 19",
+  "effect.infectcraft.zombie_virus": "Zombie Virus",
+  "effect.infectcraft.zombie_virus_2": "Zombie Virus",
+  "item.infectcraft.vaccine_shot": "Vaccine Shot",
+  "effect.infectcraft.vaccine": "Vaccine",
+  "item.minecraft.lingering_potion.effect.vaccine_effect": "Lingering Potion of Vaccine Effect",
+  "item.minecraft.tipped_arrow.effect.vaccine_effect": "Arrow of Vaccine Effect",
+  "item.minecraft.splash_potion.effect.vaccine_effect": "Splash Potion of Vaccine Effect",
+  "item.minecraft.potion.effect.vaccine_effect": "Potion of Vaccine Effect"
+}
