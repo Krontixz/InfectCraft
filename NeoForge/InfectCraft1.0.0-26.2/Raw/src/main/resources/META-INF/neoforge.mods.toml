@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Apache License version 2.0"
+
+[[mods]]
+modId="infectcraft"
+version="1.0.0"
+displayName="InfectCraft"
+displayURL="https://mcreator.net"
+credits="Made with MCreator! "
+authors="Krontixz"
+description="A mod that adds infections and viruses to minecraft!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.infectcraft]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.2.0.59,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.infectcraft]]
+    modId="minecraft"
+    type="required"
+    versionRange="[26.2]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

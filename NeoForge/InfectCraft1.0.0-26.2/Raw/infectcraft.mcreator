@@ -1,0 +1,218 @@
+{
+  "mod_elements": [
+    {
+      "name": "Covid19",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "covid_19",
+      "metadata": {
+        "files": [
+          "src/main/java/net/krontixz/infectcraft/potion/Covid19MobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "ZombieVirus",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_virus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/krontixz/infectcraft/potion/ZombieVirusMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "InfectionHandler",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infection_handler",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/krontixz/infectcraft/procedures/InfectionHandlerProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ZombieVirus2",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_virus_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/krontixz/infectcraft/potion/ZombieVirus2MobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "VaccineShot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaccine_shot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/krontixz/infectcraft/item/VaccineShotItem.java",
+          "src/main/resources/assets/infectcraft/items/vaccine_shot.json",
+          "src/main/resources/assets/infectcraft/models/item/vaccine_shot.json"
+        ]
+      }
+    },
+    {
+      "name": "Vaccine",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaccine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/krontixz/infectcraft/potion/VaccineMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "VaccineEffect",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaccine_effect",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "VaccinePotionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaccine_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/krontixz/infectcraft/recipe/brewing/VaccinePotionRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "VaccineShotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaccine_shot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/infectcraft/advancement/recipes/vaccine_shot_recipe.json",
+          "src/main/resources/data/infectcraft/recipe/vaccine_shot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ZombieScannerEveryTickWhileUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_scanner_every_tick_while_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/krontixz/infectcraft/procedures/ZombieScannerEveryTickWhileUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ZombieScanner",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_scanner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/infectcraft/items/zombie_scanner.json",
+          "src/main/java/net/krontixz/infectcraft/item/ZombieScannerItem.java",
+          "src/main/resources/assets/infectcraft/models/item/zombie_scanner.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "effect.infectcraft.covid_19": "Covid 19",
+      "effect.infectcraft.zombie_virus": "Zombie Virus",
+      "effect.infectcraft.zombie_virus_2": "Zombie Virus",
+      "item.infectcraft.vaccine_shot": "Vaccine Shot",
+      "effect.infectcraft.vaccine": "Vaccine",
+      "item.minecraft.lingering_potion.effect.vaccine_effect": "Lingering Potion of Vaccine Effect",
+      "item.minecraft.tipped_arrow.effect.vaccine_effect": "Arrow of Vaccine Effect",
+      "item.minecraft.splash_potion.effect.vaccine_effect": "Splash Potion of Vaccine Effect",
+      "item.minecraft.potion.effect.vaccine_effect": "Potion of Vaccine Effect",
+      "item.infectcraft.zombie_scanner": "Zombie Scanner"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/krontixz/infectcraft/init/InfectcraftModMobEffects.java",
+      "src/main/java/net/krontixz/infectcraft/init/InfectcraftModPotions.java",
+      "src/main/java/net/krontixz/infectcraft/init/InfectcraftModItems.java",
+      "src/main/java/net/krontixz/infectcraft/init/InfectcraftModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/krontixz/infectcraft/InfectcraftMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "infectcraft",
+    "modName": "InfectCraft",
+    "version": "1.0.0",
+    "description": "A mod that adds infections and viruses to minecraft!",
+    "author": "Krontixz",
+    "websiteURL": "https://mcreator.net",
+    "license": "Apache License version 2.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-26.2",
+    "credits": "Made with MCreator! ",
+    "modElementsPackage": "net.krontixz.infectcraft"
+  },
+  "mcreatorVersion": 202600227711
+}
